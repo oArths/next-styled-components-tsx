@@ -5,7 +5,8 @@ const theme: DefaultTheme = {
 
     colors : {
         primary :"#2234",
-        secondary : "#3498"
+        secondary : "#3498",
+        background : "#20274987"
     }
 }
 export default theme;
