@@ -1,8 +1,12 @@
-import styled from "styled-components";
+"use client";
 
+import styled from "styled-components";
 
 export const Main = styled.div`
   width: 100vw;
   height: 100%;
-  background-color: ${({ theme }) => theme.colors.secondary};
+  color: ${({theme}) => theme.colors.primary};
+  background-color: ${({theme}) => theme.colors.background};
+
+
 `;
